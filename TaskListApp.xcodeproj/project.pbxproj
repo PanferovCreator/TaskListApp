@@ -13,7 +13,7 @@
 		ABBC21CB2A16679500B359D6 /* TaskListApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ABBC21C92A16679500B359D6 /* TaskListApp.xcdatamodeld */; };
 		ABBC21CD2A16679600B359D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABBC21CC2A16679600B359D6 /* Assets.xcassets */; };
 		ABBC21D02A16679600B359D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABBC21CE2A16679600B359D6 /* LaunchScreen.storyboard */; };
-		ABD3F5C82A173AC700042D69 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD3F5C72A173AC700042D69 /* DataStore.swift */; };
+		ABD3F5CB2A174DF700042D69 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD3F5CA2A174DF700042D69 /* StorageManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		ABBC21CC2A16679600B359D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABBC21CF2A16679600B359D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABBC21D12A16679600B359D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ABD3F5C72A173AC700042D69 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		ABD3F5CA2A174DF700042D69 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				ABD3F5C42A173A3300042D69 /* ViewControllers */,
+				ABD3F5C92A174DDB00042D69 /* StorageManager */,
 				ABD3F5C52A173A4300042D69 /* Storyboards */,
-				ABD3F5C62A173A7900042D69 /* DataStore */,
 				ABD3F5C22A173A1100042D69 /* App */,
 				ABBC21CC2A16679600B359D6 /* Assets.xcassets */,
 				ABBC21C92A16679500B359D6 /* TaskListApp.xcdatamodeld */,
@@ -94,12 +94,12 @@
 			path = Storyboards;
 			sourceTree = "<group>";
 		};
-		ABD3F5C62A173A7900042D69 /* DataStore */ = {
+		ABD3F5C92A174DDB00042D69 /* StorageManager */ = {
 			isa = PBXGroup;
 			children = (
-				ABD3F5C72A173AC700042D69 /* DataStore.swift */,
+				ABD3F5CA2A174DF700042D69 /* StorageManager.swift */,
 			);
-			path = DataStore;
+			path = StorageManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,8 +173,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABBC21CB2A16679500B359D6 /* TaskListApp.xcdatamodeld in Sources */,
-				ABD3F5C82A173AC700042D69 /* DataStore.swift in Sources */,
 				ABBC21C52A16679500B359D6 /* TaskListViewController.swift in Sources */,
+				ABD3F5CB2A174DF700042D69 /* StorageManager.swift in Sources */,
 				ABBC21C12A16679500B359D6 /* AppDelegate.swift in Sources */,
 				ABBC21C32A16679500B359D6 /* SceneDelegate.swift in Sources */,
 			);
