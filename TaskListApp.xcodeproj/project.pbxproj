@@ -14,6 +14,7 @@
 		ABBC21CD2A16679600B359D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABBC21CC2A16679600B359D6 /* Assets.xcassets */; };
 		ABBC21D02A16679600B359D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABBC21CE2A16679600B359D6 /* LaunchScreen.storyboard */; };
 		ABD3F5CB2A174DF700042D69 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD3F5CA2A174DF700042D69 /* StorageManager.swift */; };
+		ABDFCA672A25DAF90039C664 /* AlertControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDFCA662A25DAF90039C664 /* AlertControllerFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		ABBC21CF2A16679600B359D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABBC21D12A16679600B359D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABD3F5CA2A174DF700042D69 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		ABDFCA662A25DAF90039C664 /* AlertControllerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertControllerFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB4ACAFE2A1B4F0500EAAA84 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ABBC21C92A16679500B359D6 /* TaskListApp.xcdatamodeld */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		ABBC21B42A16679500B359D6 = {
 			isa = PBXGroup;
 			children = (
@@ -58,12 +68,13 @@
 		ABBC21BF2A16679500B359D6 /* TaskListApp */ = {
 			isa = PBXGroup;
 			children = (
+				ABD3F5C22A173A1100042D69 /* App */,
 				ABD3F5C42A173A3300042D69 /* ViewControllers */,
+				ABDFCA652A25DACC0039C664 /* Factories */,
+				AB4ACAFE2A1B4F0500EAAA84 /* Models */,
 				ABD3F5C92A174DDB00042D69 /* StorageManager */,
 				ABD3F5C52A173A4300042D69 /* Storyboards */,
-				ABD3F5C22A173A1100042D69 /* App */,
 				ABBC21CC2A16679600B359D6 /* Assets.xcassets */,
-				ABBC21C92A16679500B359D6 /* TaskListApp.xcdatamodeld */,
 			);
 			path = TaskListApp;
 			sourceTree = "<group>";
@@ -100,6 +111,14 @@
 				ABD3F5CA2A174DF700042D69 /* StorageManager.swift */,
 			);
 			path = StorageManager;
+			sourceTree = "<group>";
+		};
+		ABDFCA652A25DACC0039C664 /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				ABDFCA662A25DAF90039C664 /* AlertControllerFactory.swift */,
+			);
+			path = Factories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,6 +194,7 @@
 				ABBC21CB2A16679500B359D6 /* TaskListApp.xcdatamodeld in Sources */,
 				ABBC21C52A16679500B359D6 /* TaskListViewController.swift in Sources */,
 				ABD3F5CB2A174DF700042D69 /* StorageManager.swift in Sources */,
+				ABDFCA672A25DAF90039C664 /* AlertControllerFactory.swift in Sources */,
 				ABBC21C12A16679500B359D6 /* AppDelegate.swift in Sources */,
 				ABBC21C32A16679500B359D6 /* SceneDelegate.swift in Sources */,
 			);
